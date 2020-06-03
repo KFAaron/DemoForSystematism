@@ -16,6 +16,7 @@
 		E4B66B1C24874BEA00AE35E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B1B24874BEA00AE35E1 /* main.m */; };
 		E4B66B2624874BEA00AE35E1 /* DemoForSystematismTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B2524874BEA00AE35E1 /* DemoForSystematismTests.m */; };
 		E4B66B3124874BEA00AE35E1 /* DemoForSystematismUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B3024874BEA00AE35E1 /* DemoForSystematismUITests.m */; };
+		E4B66B3F2487503000AE35E1 /* mainResource.json in Resources */ = {isa = PBXBuildFile; fileRef = E4B66B3E2487503000AE35E1 /* mainResource.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E4B66B2C24874BEA00AE35E1 /* DemoForSystematismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoForSystematismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B66B3024874BEA00AE35E1 /* DemoForSystematismUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoForSystematismUITests.m; sourceTree = "<group>"; };
 		E4B66B3224874BEA00AE35E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B66B3E2487503000AE35E1 /* mainResource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mainResource.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E4B66B0C24874BE800AE35E1 /* SceneDelegate.h */,
 				E4B66B0D24874BE800AE35E1 /* SceneDelegate.m */,
 				E4B66B0F24874BE800AE35E1 /* ViewController.h */,
+				E4B66B3E2487503000AE35E1 /* mainResource.json */,
 				E4B66B1024874BE800AE35E1 /* ViewController.m */,
 				E4B66B1224874BE800AE35E1 /* Main.storyboard */,
 				E4B66B1524874BEA00AE35E1 /* Assets.xcassets */,
@@ -242,6 +245,7 @@
 			files = (
 				E4B66B1924874BEA00AE35E1 /* LaunchScreen.storyboard in Resources */,
 				E4B66B1624874BEA00AE35E1 /* Assets.xcassets in Resources */,
+				E4B66B3F2487503000AE35E1 /* mainResource.json in Resources */,
 				E4B66B1424874BE800AE35E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
