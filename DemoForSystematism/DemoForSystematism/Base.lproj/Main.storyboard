@@ -18,9 +18,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dZS-fM-Hqj">
+                                <rect key="frame" x="20" y="88" width="374" height="774"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="NGR-fI-f9k"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="mc2-1a-QTh"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="e1i-zb-9eA" firstAttribute="top" secondItem="dZS-fM-Hqj" secondAttribute="bottom" id="Eyf-2i-cYP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dZS-fM-Hqj" secondAttribute="trailing" id="F3q-27-gqY"/>
+                            <constraint firstItem="dZS-fM-Hqj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YhF-bB-y1s"/>
+                            <constraint firstItem="dZS-fM-Hqj" firstAttribute="top" secondItem="RWs-eK-fw3" secondAttribute="bottom" id="gTu-Pe-gtA"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="DemoForSystematism" id="1e7-YN-aTo"/>
+                    <connections>
+                        <outlet property="tableView" destination="dZS-fM-Hqj" id="nLy-KF-oM7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
