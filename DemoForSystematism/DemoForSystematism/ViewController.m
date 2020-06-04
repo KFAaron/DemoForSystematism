@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KFABaseViewController.h"
 
 static NSString * cellIdentifier = @"cellIdentifier";
 
@@ -49,12 +50,23 @@ static NSString * cellIdentifier = @"cellIdentifier";
     }
     NSString *title = self.titleArr[indexPath.section];
     NSArray *rows = self.sourceDic[title];
-    cell.textLabel.text = rows[indexPath.row];
+    cell.textLabel.text = rows[indexPath.row][@"subTitle"];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    NSString *title = self.titleArr[indexPath.section];
+    NSArray *rows = self.sourceDic[title];
+    NSString *className = rows[indexPath.row][@"className"];
+    if (className && className.length > 0) {
+        Class class = NSClassFromString(className);
+        id classOjbc = [[class alloc] init];
+        if ([classOjbc isKindOfClass:[KFABaseViewController class]]) {
+            KFABaseViewController *vc = (KFABaseViewController *)classOjbc;
+            vc.urlString = rows[indexPath.row][@"links"];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+    }
 }
 
 #pragma mark - Propreties

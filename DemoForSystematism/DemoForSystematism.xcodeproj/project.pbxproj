@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693392E9248951C600F9C6E9 /* KFABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693392E8248951C600F9C6E9 /* KFABaseViewController.m */; };
 		E4B66B0B24874BE800AE35E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B0A24874BE800AE35E1 /* AppDelegate.m */; };
 		E4B66B0E24874BE800AE35E1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B0D24874BE800AE35E1 /* SceneDelegate.m */; };
 		E4B66B1124874BE800AE35E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B1024874BE800AE35E1 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		693392E7248951C600F9C6E9 /* KFABaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFABaseViewController.h; sourceTree = "<group>"; };
+		693392E8248951C600F9C6E9 /* KFABaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFABaseViewController.m; sourceTree = "<group>"; };
 		E4B66B0624874BE800AE35E1 /* DemoForSystematism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForSystematism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B66B0924874BE800AE35E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4B66B0A24874BE800AE35E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				E4B66B1724874BEA00AE35E1 /* LaunchScreen.storyboard */,
 				E4B66B1A24874BEA00AE35E1 /* Info.plist */,
 				E4B66B1B24874BEA00AE35E1 /* main.m */,
+				693392E7248951C600F9C6E9 /* KFABaseViewController.h */,
+				693392E8248951C600F9C6E9 /* KFABaseViewController.m */,
 			);
 			path = DemoForSystematism;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693392E9248951C600F9C6E9 /* KFABaseViewController.m in Sources */,
 				E4B66B1124874BE800AE35E1 /* ViewController.m in Sources */,
 				E4B66B0B24874BE800AE35E1 /* AppDelegate.m in Sources */,
 				E4B66B1C24874BEA00AE35E1 /* main.m in Sources */,
