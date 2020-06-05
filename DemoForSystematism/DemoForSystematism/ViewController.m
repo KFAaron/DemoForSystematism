@@ -48,6 +48,7 @@ static NSString * cellIdentifier = @"cellIdentifier";
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
+//    NSLog(@"%ld/%ld:%@",indexPath.section,indexPath.row,cell);
     NSString *title = self.titleArr[indexPath.section];
     NSArray *rows = self.sourceDic[title];
     cell.textLabel.text = rows[indexPath.row][@"subTitle"];

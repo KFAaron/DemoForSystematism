@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		693392E9248951C600F9C6E9 /* KFABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693392E8248951C600F9C6E9 /* KFABaseViewController.m */; };
+		E4338359248A093000CBA230 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4338356248A092F00CBA230 /* 111.jpg */; };
+		E433835A248A093000CBA230 /* 222.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4338357248A092F00CBA230 /* 222.jpeg */; };
+		E433835B248A093000CBA230 /* 3333.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4338358248A092F00CBA230 /* 3333.jpeg */; };
 		E4B66B0B24874BE800AE35E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B0A24874BE800AE35E1 /* AppDelegate.m */; };
 		E4B66B0E24874BE800AE35E1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B0D24874BE800AE35E1 /* SceneDelegate.m */; };
 		E4B66B1124874BE800AE35E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B1024874BE800AE35E1 /* ViewController.m */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		693392E7248951C600F9C6E9 /* KFABaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFABaseViewController.h; sourceTree = "<group>"; };
 		693392E8248951C600F9C6E9 /* KFABaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFABaseViewController.m; sourceTree = "<group>"; };
+		E4338356248A092F00CBA230 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
+		E4338357248A092F00CBA230 /* 222.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222.jpeg; sourceTree = "<group>"; };
+		E4338358248A092F00CBA230 /* 3333.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3333.jpeg; sourceTree = "<group>"; };
 		E4B66B0624874BE800AE35E1 /* DemoForSystematism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForSystematism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B66B0924874BE800AE35E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4B66B0A24874BE800AE35E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4338355248A091F00CBA230 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E4338356248A092F00CBA230 /* 111.jpg */,
+				E4338357248A092F00CBA230 /* 222.jpeg */,
+				E4338358248A092F00CBA230 /* 3333.jpeg */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		E4B66AFD24874BE800AE35E1 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +125,7 @@
 		E4B66B0824874BE800AE35E1 /* DemoForSystematism */ = {
 			isa = PBXGroup;
 			children = (
+				E4338355248A091F00CBA230 /* source */,
 				E4B66B0924874BE800AE35E1 /* AppDelegate.h */,
 				E4B66B0A24874BE800AE35E1 /* AppDelegate.m */,
 				E4B66B0C24874BE800AE35E1 /* SceneDelegate.h */,
@@ -248,9 +265,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E433835A248A093000CBA230 /* 222.jpeg in Resources */,
+				E433835B248A093000CBA230 /* 3333.jpeg in Resources */,
 				E4B66B1924874BEA00AE35E1 /* LaunchScreen.storyboard in Resources */,
 				E4B66B1624874BEA00AE35E1 /* Assets.xcassets in Resources */,
 				E4B66B3F2487503000AE35E1 /* mainResource.json in Resources */,
+				E4338359248A093000CBA230 /* 111.jpg in Resources */,
 				E4B66B1424874BE800AE35E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
