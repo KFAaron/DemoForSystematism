@@ -3,12 +3,12 @@
         {
             "subTitle": "UITableView相关",
             "className": "KFABaseViewController",
-            "links": "http://note.youdao.com/noteshare?id=39db4248b5127631cfdfb2ec32709ce5"
+            "links": "https://note.youdao.com/noteshare?id=39db4248b5127631cfdfb2ec32709ce5"
         },
         {
             "subTitle": "事件传递&视图响应",
-            "className": "",
-            "links": ""
+            "className": "KFABaseViewController",
+            "links": "http://note.youdao.com/noteshare?id=5e75fabef5640b9bc95a3ebfd5c74f85"
         },
         {
             "subTitle": "图像显示原理",

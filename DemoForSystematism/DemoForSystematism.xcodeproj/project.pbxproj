@@ -11,6 +11,8 @@
 		E4338359248A093000CBA230 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4338356248A092F00CBA230 /* 111.jpg */; };
 		E433835A248A093000CBA230 /* 222.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4338357248A092F00CBA230 /* 222.jpeg */; };
 		E433835B248A093000CBA230 /* 3333.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4338358248A092F00CBA230 /* 3333.jpeg */; };
+		E433835F248A515600CBA230 /* KFAFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = E433835E248A515600CBA230 /* KFAFatherView.m */; };
+		E4338362248A516200CBA230 /* KFASonView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4338361248A516200CBA230 /* KFASonView.m */; };
 		E4B66B0B24874BE800AE35E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B0A24874BE800AE35E1 /* AppDelegate.m */; };
 		E4B66B0E24874BE800AE35E1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B0D24874BE800AE35E1 /* SceneDelegate.m */; };
 		E4B66B1124874BE800AE35E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B66B1024874BE800AE35E1 /* ViewController.m */; };
@@ -46,6 +48,10 @@
 		E4338356248A092F00CBA230 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
 		E4338357248A092F00CBA230 /* 222.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222.jpeg; sourceTree = "<group>"; };
 		E4338358248A092F00CBA230 /* 3333.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3333.jpeg; sourceTree = "<group>"; };
+		E433835D248A515600CBA230 /* KFAFatherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAFatherView.h; sourceTree = "<group>"; };
+		E433835E248A515600CBA230 /* KFAFatherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAFatherView.m; sourceTree = "<group>"; };
+		E4338360248A516200CBA230 /* KFASonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFASonView.h; sourceTree = "<group>"; };
+		E4338361248A516200CBA230 /* KFASonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFASonView.m; sourceTree = "<group>"; };
 		E4B66B0624874BE800AE35E1 /* DemoForSystematism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForSystematism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B66B0924874BE800AE35E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4B66B0A24874BE800AE35E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +108,17 @@
 			path = source;
 			sourceTree = "<group>";
 		};
+		E433835C248A514600CBA230 /* 事件传递&视图响应 */ = {
+			isa = PBXGroup;
+			children = (
+				E433835D248A515600CBA230 /* KFAFatherView.h */,
+				E433835E248A515600CBA230 /* KFAFatherView.m */,
+				E4338360248A516200CBA230 /* KFASonView.h */,
+				E4338361248A516200CBA230 /* KFASonView.m */,
+			);
+			path = "事件传递&视图响应";
+			sourceTree = "<group>";
+		};
 		E4B66AFD24874BE800AE35E1 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +142,7 @@
 		E4B66B0824874BE800AE35E1 /* DemoForSystematism */ = {
 			isa = PBXGroup;
 			children = (
+				E433835C248A514600CBA230 /* 事件传递&视图响应 */,
 				E4338355248A091F00CBA230 /* source */,
 				E4B66B0924874BE800AE35E1 /* AppDelegate.h */,
 				E4B66B0A24874BE800AE35E1 /* AppDelegate.m */,
@@ -301,6 +319,8 @@
 				E4B66B0B24874BE800AE35E1 /* AppDelegate.m in Sources */,
 				E4B66B1C24874BEA00AE35E1 /* main.m in Sources */,
 				E4B66B0E24874BE800AE35E1 /* SceneDelegate.m in Sources */,
+				E4338362248A516200CBA230 /* KFASonView.m in Sources */,
+				E433835F248A515600CBA230 /* KFAFatherView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

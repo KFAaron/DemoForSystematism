@@ -8,6 +8,8 @@
 
 #import "KFABaseViewController.h"
 #import <WebKit/WebKit.h>
+#import "KFAFatherView.h"
+#import "KFASonView.h"
 
 @interface KFABaseViewController ()
 
@@ -28,6 +30,8 @@
     [self createCornerForRedImage];
     [self createCornerGorGreenImage];
     [self createCornerForYellorImage];
+    
+    [self addGesgureView];
     
     if (_urlString && _urlString.length > 0) {
         [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:_urlString]]];
@@ -58,6 +62,24 @@
     self.yellowImage.layer.cornerRadius = 10;
 //    self.yellowImage.layer.masksToBounds = YES;
     self.yellowImage.clipsToBounds = YES;
+}
+
+- (void)addGesgureView {
+    KFAFatherView *fatherView = [[KFAFatherView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width-100)/2, 220, 100, 100)];
+    fatherView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:fatherView];
+    
+    KFASonView *sView1 = [[KFASonView alloc] initWithFrame:CGRectMake(-70, 0, 100, 100)];
+    sView1.backgroundColor = [UIColor greenColor];
+    sView1.name = @"大儿子";
+    sView1.alpha = 0.01;
+    [fatherView addSubview:sView1];
+    
+    KFASonView *sView2 = [[KFASonView alloc] initWithFrame:CGRectMake(70, 0, 100, 100)];
+    sView2.backgroundColor = [UIColor yellowColor];
+    sView2.name = @"小儿子";
+    sView2.alpha = 0.5;
+    [fatherView addSubview:sView2];
 }
 
 #pragma mark - Properties
